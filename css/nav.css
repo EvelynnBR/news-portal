@@ -1,0 +1,37 @@
+@import url(global.css);
+
+.nav-primary{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 26px 32px;
+}
+.nav-left, .nav-right{
+    display: flex;
+    gap: 8px;
+}
+h1{
+    color: var(--brand-color-dark);
+    font: var(--text-heading1);
+}
+h2{
+    font: var(--text-heading2);
+    color: var(--text-color-primary);
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border: 1px var(--stroke-color);
+    border-style: solid none;
+    padding: 14px 32px;
+}
+.nav-link a{
+    text-decoration: none;
+    color: var(--text-color-secondary);
+    font: var(--text-span);
+}
+.nav-link a:hover{
+    color: var(--brand-color-light);
+}

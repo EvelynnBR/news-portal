@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: var(--bg-color);
+}
 
 :root{
     --brand-color-light: #60A5FA;
@@ -16,13 +19,12 @@
 
     --font-family: "Archivo", serif;
     --text-heading1: 800 24px/135% var(--font-family);
-    --text-heading2: 800 16/140% var(--font-family);
-    --text-heading3: 800 14/140% var(--font-family);
-    --text-span: 600 14/145% var(--font-family);
+    --text-heading2: 800 16px/140% var(--font-family);
+    --text-heading3: 800 14px/140% var(--font-family);
+    --text-span: 600 14px/145% var(--font-family);
     --text-Paragraph: normal 14/160% var(--font-family);
 
 }
-
-h1{
-    font: var(--text-lg1);
+.container{
+    margin: 0 32px;
 }
