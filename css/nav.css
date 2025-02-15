@@ -1,5 +1,4 @@
 header{
-    max-width: 1280px;
     margin: auto;
 }
 
@@ -7,22 +6,17 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 26px 32px;
+    padding-block: 26px;
 }
 .nav-left, .nav-right{
     display: flex;
     gap: 8px;
 }
-h2{
-    font: var(--text-heading2);
-    color: var(--text-color-primary);
-}
-
 ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
-    border: 1px var(--stroke-color);
-    border-style: solid none;
+    border: 1px solid var(--stroke-color);
+    border-inline: none;
     padding: 14px 32px;
 }

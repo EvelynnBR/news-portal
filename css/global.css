@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 body{
+    margin: auto;
     background-color: var(--bg-color);
+    max-width: 1280px;
 }
 
 :root{
@@ -27,12 +29,10 @@ body{
 }
 main{
     margin-top: 40px;
-    margin-inline:32px;
 }
 .container{
     display: block;
     margin: auto;
-    max-width: 1280px;
     
 }
 img{
@@ -46,4 +46,28 @@ a{
 }
 a:hover{
     color: var(--brand-color-light);
+}
+
+.text-h1{
+    font: var(--text-heading1);
+    color: var(--text-color-primary);
+}
+.text-h2{
+    font: var(--text-heading2);
+    color: var(--text-color-primary);
+}
+.text-h3{
+    font: var(--text-heading3);
+    color: var(--text-color-primary);
+}
+
+.content-span{
+    background-color: var(--brand-color-dark);
+    font: var(--text-span);
+    color: var(--text-color-primary);
+    font: 10px/1.2 var(--font-family);
+    letter-spacing: 4%;
+    padding: 4px 8px;
+    box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.251);
+    border-radius: 4px;
 }
