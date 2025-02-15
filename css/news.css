@@ -1,0 +1,16 @@
+.news{
+    margin-top: 80px;
+}
+.all-news{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--stroke-color);
+}
+.all-news > div{
+    margin-top: 12px;
+}
+.text-secondary{
+    font: var(--text-span);
+    color: var(--text-color-secondary);
+}
