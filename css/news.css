@@ -6,6 +6,7 @@
     justify-content: space-between;
     align-items: center;
     border-top: 1px solid var(--stroke-color);
+    margin-bottom: 24px;
 }
 .all-news > div{
     margin-top: 12px;
@@ -13,4 +14,32 @@
 .text-secondary{
     font: var(--text-span);
     color: var(--text-color-secondary);
+}
+
+
+
+#news{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    justify-content: space-between;
+}
+.news-secondary{
+    position: relative;
+}
+.news-secondary figcaption{
+    position: absolute;
+    top: 0;
+    margin: 8px;
+}
+.news-secondary span{
+    background-color: var(--brand-color-dark);
+    color: var(--text-color-primary);
+    font: 10px/12px var(--font-family);
+    letter-spacing: 1px;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+.news-secondary h2{
+    color: var(--text-color-primary);
+    font: var(--text-heading2);
 }
