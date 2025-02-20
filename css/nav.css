@@ -12,11 +12,13 @@ header{
     display: flex;
     gap: 8px;
 }
+.nav-secondary{
+    border: 1px solid var(--stroke-color);
+    border-inline: none;
+}
 ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
-    border: 1px solid var(--stroke-color);
-    border-inline: none;
-    padding: 14px 32px;
+    padding-block: 14px;
 }
