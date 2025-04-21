@@ -10,224 +10,237 @@
         <link rel="stylesheet" href="css/index.css">
         <title>News Portal</title>
     </head>
+
+
+
+
+
+
+
     <body>
-        <header>
-            <section class="nav-primary">
-                <div class="nav-left">
-                    <img src="assets/icones/List.svg" alt="mais opção">
-                    <a href="#">Menu</a>
+        <header class="container">
+            <section>
+                <div class="flex py-lg">
+                    <div class="flex">
+                        <img src="assets/icones/List.svg" alt="mais opção">
+                        <a class="desktop-only" href="#"><strong>Menu</strong></a>
+                    </div>
+                    <img src="assets/icones/Tech News.svg" alt="logo tech News">
+                    <div class="flex">
+                        <a class="desktop-only" href="#"><strong>Buscar</strong></a>
+                        <img src="assets/icones/MagnifyingGlass.svg" alt="">
+                    </div>
                 </div>
-                <img src="assets/icones/Tech News.svg" alt="logo tech News">
-                <div class="nav-right">
-                    <a href="#">Buscar</a>
-                    <img src="assets/icones/MagnifyingGlass.svg" alt="">
-                </div>
+                <div class="separetor-mobile"></div>
             </section>
-            <section class="nav-secondary">
-                <ul>
-                    <li class="nav-link"><a href="#">Inteligência Artificial</a></li>
-                    <li class="nav-link"><a href="#">Blockchain</a></li>
-                    <li class="nav-link"><a href="#">Hologramas</a></li>
-                    <li class="nav-link"><a href="#">Internet</a></li>
-                    <li class="nav-link"><a href="#">Vestíveis</a></li>
-                    <li class="nav-link"><a href="#">Realidade Aumentada</a></li>
-                    <li class="nav-link"><a href="#">Realidade  Virtual</a></li>
+
+            <section class="desktop-only">
+                <ul rule="list" class="nav flex">
+                    <a href="#">Inteligência Artificial</a>
+                    <a href="#">Blockchain</a>
+                    <a href="#">Hologramas</a>
+                    <a href="#">Internet</a>
+                    <a href="#">Vestíveis</a>
+                    <a href="#">Realidade Aumentada</a>
+                    <a href="#">Realidade  Virtual</a>
                 </ul>
             </section>
+
         </header>
-        <div class="container">
-            <main class="grid-container">
-                <section id="featured" class=" grid grid-flow-col gap-16">
+
+        <main>
+            <section id="featured" class="grid gap-1 container">
+                <figure class="card-one">
+                    <img src="assets/Image 01.png" alt="">
+                    <figcaption>
+                        <span class="content-span">ROBÓTICA</span>
+                        <h2 class="text-h1">Robôs domésticos começam a ser adotados para tarefas diárias, prometendo mais conforto e eficiência nas residências.</h2>
+                    </figcaption>
+                </figure>
+
+                <div class="grid gap-1">
                     <figure class="card">
-                        <img src="assets/Image 01.png" alt="">
+                        <img src="assets/Image 02.png" alt="Novo Smartphone Projetor 3D chega ao mercado, transformando a forma como vemos nossas telas!">
+
                         <figcaption>
-                            <span class="content-span">ROBÓTICA</span>
-                            <h2 class="text-h1">Robôs domésticos começam a ser adotados para tarefas diárias, prometendo mais conforto e eficiência nas residências.</h2>
+                            <span class="content-span">HOLOGRAMAS</span>
+                            <h3>Novo Smartphone Projetor 3D chega ao mercado, transformando a forma como vemos nossas telas!</h3>
                         </figcaption>
+
                     </figure>
 
-                    <div class="grid grid-cols-2 gap-16">
-                        <figure class="card">
-                            <img src="assets/Image 02.png" alt="Novo Smartphone Projetor 3D chega ao mercado, transformando a forma como vemos nossas telas!">
+                    <figure class="card">
+                        <img src="assets/Image 03.png" alt="Tecnologia 6G chega às metrópoles brasileiras, prometendo revolucionar a forma como vivemos e nos comunicamos.">
 
-                            <figcaption>
-                                <span class="content-span">HOLOGRAMAS</span>
-                                <h2 class="text-h3">Novo Smartphone Projetor 3D chega ao mercado, transformando a forma como vemos nossas telas!</h2>
-                            </figcaption>
+                        <figcaption>
+                            <span class="content-span">INTERNET</span>
+                            <h3 class="text-h3">Tecnologia 6G chega às metrópoles brasileiras, prometendo revolucionar a forma como vivemos e nos comuni...</h3>
+                        </figcaption>
 
-                        </figure>
+                    </figure>
 
-                        <figure class="card">
-                            <img src="assets/Image 03.png" alt="Tecnologia 6G chega às metrópoles brasileiras, prometendo revolucionar a forma como vivemos e nos comunicamos.">
+                    <figure class="card">
+                        <img src="assets/Image 04.png" alt="Empresa lança relógio inteligente capaz de monitorar a saúde mental, oferecendo insights valiosos para o bem-estar pessoal.">
 
-                            <figcaption>
-                                <span class="content-span">INTERNET</span>
-                                <h2 class="text-h3">Tecnologia 6G chega às metrópoles brasileiras, prometendo revolucionar a forma como vivemos e nos comuni...</h2>
-                            </figcaption>
+                        <figcaption>
+                            <span class="content-span">VESTÍVEIS</span>
+                            <h3 class="text-h3">Empresa lança relógio inteligente capaz de monitorar a saúde mental, oferecendo insights valiosos para o...</h3>
+                        </figcaption>
 
-                        </figure>
+                    </figure>
 
-                        <figure class="card">
-                            <img src="assets/Image 04.png" alt="Empresa lança relógio inteligente capaz de monitorar a saúde mental, oferecendo insights valiosos para o bem-estar pessoal.">
+                    <figure class="card">
+                        <img src="assets/Image 05.png" alt="Escolas adotam a tecnologia VR para proporcionar experiências imersivas, transformando a aprendizagem tradicional.">
 
-                            <figcaption>
-                                <span class="content-span">VESTÍVEIS</span>
-                                <h2 class="text-h3">Empresa lança relógio inteligente capaz de monitorar a saúde mental, oferecendo insights valiosos para o...</h2>
-                            </figcaption>
+                        <figcaption>
+                            <span class="content-span">REALIDADE VIRTUAL</span>
+                            <h3 class="text-h3">Escolas adotam a tecnologia VR para proporcionar experiências imersivas, transformando a aprendizagem trad...</h3>
+                        </figcaption>
 
-                        </figure>
+                    </figure>
+                </div>
+            </section>
 
-                        <figure class="card">
-                            <img src="assets/Image 05.png" alt="Escolas adotam a tecnologia VR para proporcionar experiências imersivas, transformando a aprendizagem tradicional.">
 
-                            <figcaption>
-                                <span class="content-span">REALIDADE VIRTUAL</span>
-                                <h2 class="text-h3">Escolas adotam a tecnologia VR para proporcionar experiências imersivas, transformando a aprendizagem trad...</h2>
-                            </figcaption>
 
-                        </figure>
+            <section class="more-news news">
+                <div class="all-news">
+                    <div>
+                        <span class="text-secondary">Mais lidas da semana</span>
                     </div>
+                    <div class="see-all">
+                        <span class="text-secondary">Ver tudo</span>
+                        <img src="assets/icones/Vector.svg" alt="seta para direita">
+                    </div>
+                </div>
+
+                <section id="news">
+                    <figure class="news-secondary">
+                        <img src="assets/Image 06.png" alt="">
+                        <figcaption>
+                            <span>VEÍCULOS</span>
+                        </figcaption>
+                        <h2>Protótipo de veículo voador é apresentado, marcando o início da era dos transportes aéreos pessoa...</h2>
+                    </figure>
+
+                    <figure class="news-secondary">
+                        <img src="assets/Image 07.png" alt="">
+                        <figcaption>
+                            <span>HOLOGRAMAS</span>
+                        </figcaption>
+                        <h2>Plataforma de videoconferência apresenta nova função de hologramas, tornando as chamada...</h2>
+                    </figure>
+
+                    <figure class="news-secondary">
+                        <img src="assets/Image 08.png" alt="">
+                        <figcaption>
+                            <span>REALIDADE VIRTUAL</span>
+                        </figcaption>
+                        <h2>Nova geração de consoles de videogame é lançada, trazendo gráficos ultra-realistas e experiên...</h2>
+                    </figure>
+
+                    <figure class="news-secondary">
+                        <img src="assets/Image 09.png" alt="">
+                        <figcaption>
+                            <span>INTERNET</span>
+                        </figcaption>
+                        <h2>Projeto busca oferecer internet de alta velocidade em áreas remotas através de satélites.</h2>
+                    </figure>
                 </section>
+            </section>
 
-                <section class="more-news news">
-                    <div class="all-news">
-                        <div>
-                            <span class="text-secondary">Mais lidas da semana</span>
+            <section id="ia">
+                <section id="noticia-geral">
+                    <section id="noticia-left">
+                        <div class="header">
+                            <span>Destaques de Inteligência Artificial</span>
+                            <div class="ver">
+                                <span>Ver tudo</span>
+                                <img src="assets/icones/Vector.svg" alt="">
+                            </div>
                         </div>
-                        <div class="see-all">
-                            <span class="text-secondary">Ver tudo</span>
-                            <img src="assets/icones/Vector.svg" alt="seta para direita">
+                        <div class="noticias">
+                            <div class="textos">
+                                <span>Inteligência Artificial</span>
+                                <h2>Empresa surpreende o mundo ao anunciar um algoritmo capaz de prever eventos futuros com alta precisão.</h2>
+                                <h3>Em um avanço surpreendente da inteligência artificial, uma empresa anuncia o desenvolvimento de um algoritmo capaz de prever eventos futuros com notável precisão. Descubra como essa tecnologia está desafiando as fronteiras da previsão e quais são as implicações para diversas áreas, desde finanças até pla...</h3>
+                            </div>
+                            <img src="assets/Image 10.png" alt="">
                         </div>
-                    </div>
-
-                    <section id="news">
-                        <figure class="news-secondary">
-                            <img src="assets/Image 06.png" alt="">
-                            <figcaption>
-                                <span>VEÍCULOS</span>
-                            </figcaption>
-                            <h2>Protótipo de veículo voador é apresentado, marcando o início da era dos transportes aéreos pessoa...</h2>
-                        </figure>
-
-                        <figure class="news-secondary">
-                            <img src="assets/Image 07.png" alt="">
-                            <figcaption>
-                                <span>HOLOGRAMAS</span>
-                            </figcaption>
-                            <h2>Plataforma de videoconferência apresenta nova função de hologramas, tornando as chamada...</h2>
-                        </figure>
-
-                        <figure class="news-secondary">
-                            <img src="assets/Image 08.png" alt="">
-                            <figcaption>
+                        <div class="noticias">
+                            <div class="textos">
+                                <span>Inteligência Artificial</span>
+                                <h2>Dispositivo portátil promete traduzir instantaneamente diferentes idiomas, facilitando a comunicação global.</h2>
+                                <h3>Em um mundo cada vez mais conectado, a comunicação sem fronteiras é essencial. Nesse contexto, um dispositivo portátil surge como um verdadeiro herói linguístico, prometendo quebrar as barreiras idiomáticas instantaneamente. Imagine poder se comunicar fluentemente em qualquer lugar do mundo, indepe...</h3>
+                            </div>
+                            <img src="assets/Image 11.png" alt="">
+                        </div>
+                        <div class="noticias">
+                            <div class="textos">
+                                <span>Inteligência Artificial</span>
+                                <h2>Criados para auxiliar idosos, robôs de companhia ganham popularidade, oferecendo suporte emocional e físico aos usu...</h2>
+                                <h3>A tecnologia não só avança, mas também busca tornar a vida mais significativa para todas as gerações. No cenário atual, os robôs sociais, projetados especialmente para oferecer apoio e companhia aos idosos, estão ganhando destaque. Mais do que meros assistentes, esses robôs são programados para f...</h3>
+                            </div>
+                            <img src="assets/Image 12.png" alt="">
+                        </div>
+                        <div class="noticias">
+                            <div class="textos">
+                                <span>Inteligência Artificial</span>
+                                <h2>Aplicativo utiliza inteligência artificial para ajudar usuários a manterem o foco e aumentarem a produtividade no dia a dia.</h2>
+                                <h3>No turbilhão da vida moderna, onde distrações são abundantes, um aplicativo inovador surge como um aliado indispensável para quem busca maior concentração e eficiência no cotidiano. Utilizando avançados algoritmos de inteligência artificial, este aplicativo promete mais do que simplesmente gerenci...</h3>
+                            </div>
+                            <img src="assets/Image 13.png" alt="">
+                        </div>
+                    </section>
+                    <section id="noticia-right">
+                        <div id="ads">
+                            <img src="assets/Ads.png" alt="">
+                        </div>
+                        <div class="header">
+                            <span>Viu isso aqui?</span>
+                            <div class="ver">
+                                <span>Ver tudo</span>
+                                <img src="assets/icones/Vector.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="noticia-right">
+                            <img src="assets/Image 14.png" alt="">
+                            <div class="text-right">
+                                <span>SOFTWARE</span>
+                                <h3>Aplicativo de monitoramento ambiental ganha destaque, incentivando práticas ecológicas e pro...</h3>
+                            </div>
+                        </div>
+                        <div class="noticia-right">
+                            <img src="assets/Image 15.png" alt="">
+                            <div class="text-right">
                                 <span>REALIDADE VIRTUAL</span>
-                            </figcaption>
-                            <h2>Nova geração de consoles de videogame é lançada, trazendo gráficos ultra-realistas e experiên...</h2>
-                        </figure>
-
-                        <figure class="news-secondary">
-                            <img src="assets/Image 09.png" alt="">
-                            <figcaption>
-                                <span>INTERNET</span>
-                            </figcaption>
-                            <h2>Projeto busca oferecer internet de alta velocidade em áreas remotas através de satélites.</h2>
-                        </figure>
+                                <h3>Óculos de realidade virtual com feedback tátil proporcionam uma experiência sensorial complet...</h3>
+                            </div>
+                        </div>
+                        <div class="noticia-right">
+                            <img src="assets/Image 16.png" alt="">
+                            <div class="text-right">
+                                <span>CRIPTOMOEDAS</span>
+                                <h3>Surge uma nova moeda digital baseada em tecnologias sustentáveis, buscando minimizar o i...</h3>
+                            </div>
+                        </div>
+                        <div class="noticia-right">
+                            <img src="assets/Image 17.png" alt="">
+                            <div class="text-right">
+                                <span>DRONES</span>
+                                <h3>SEmpresas de e-commerce implementam frota de drones para entregas rápidas, transformando o ce...</h3>
+                            </div>
+                        </div>
+                        <div class="noticia-right">
+                            <img src="assets/Image 18.png" alt="">
+                            <div class="text-right">
+                                <span>IMPRESSÃO 3D</span>
+                                <h3>Tecnologia inovadora permite a impressão 3D de órgãos humanos, revolucionando a medicina e a li...</h3>
+                            </div>
+                        </div>
                     </section>
                 </section>
-
-                <section id="ia">
-                    <section id="noticia-geral">
-                        <section id="noticia-left">
-                            <div class="header">
-                                <span>Destaques de Inteligência Artificial</span>
-                                <div class="ver">
-                                    <span>Ver tudo</span>
-                                    <img src="assets/icones/Vector.svg" alt="">
-                                </div>
-                            </div>
-                            <div class="noticias">
-                                <div class="textos">
-                                    <span>Inteligência Artificial</span>
-                                    <h2>Empresa surpreende o mundo ao anunciar um algoritmo capaz de prever eventos futuros com alta precisão.</h2>
-                                    <h3>Em um avanço surpreendente da inteligência artificial, uma empresa anuncia o desenvolvimento de um algoritmo capaz de prever eventos futuros com notável precisão. Descubra como essa tecnologia está desafiando as fronteiras da previsão e quais são as implicações para diversas áreas, desde finanças até pla...</h3>
-                                </div>
-                                <img src="assets/Image 10.png" alt="">
-                            </div>
-                            <div class="noticias">
-                                <div class="textos">
-                                    <span>Inteligência Artificial</span>
-                                    <h2>Dispositivo portátil promete traduzir instantaneamente diferentes idiomas, facilitando a comunicação global.</h2>
-                                    <h3>Em um mundo cada vez mais conectado, a comunicação sem fronteiras é essencial. Nesse contexto, um dispositivo portátil surge como um verdadeiro herói linguístico, prometendo quebrar as barreiras idiomáticas instantaneamente. Imagine poder se comunicar fluentemente em qualquer lugar do mundo, indepe...</h3>
-                                </div>
-                                <img src="assets/Image 11.png" alt="">
-                            </div>
-                            <div class="noticias">
-                                <div class="textos">
-                                    <span>Inteligência Artificial</span>
-                                    <h2>Criados para auxiliar idosos, robôs de companhia ganham popularidade, oferecendo suporte emocional e físico aos usu...</h2>
-                                    <h3>A tecnologia não só avança, mas também busca tornar a vida mais significativa para todas as gerações. No cenário atual, os robôs sociais, projetados especialmente para oferecer apoio e companhia aos idosos, estão ganhando destaque. Mais do que meros assistentes, esses robôs são programados para f...</h3>
-                                </div>
-                                <img src="assets/Image 12.png" alt="">
-                            </div>
-                            <div class="noticias">
-                                <div class="textos">
-                                    <span>Inteligência Artificial</span>
-                                    <h2>Aplicativo utiliza inteligência artificial para ajudar usuários a manterem o foco e aumentarem a produtividade no dia a dia.</h2>
-                                    <h3>No turbilhão da vida moderna, onde distrações são abundantes, um aplicativo inovador surge como um aliado indispensável para quem busca maior concentração e eficiência no cotidiano. Utilizando avançados algoritmos de inteligência artificial, este aplicativo promete mais do que simplesmente gerenci...</h3>
-                                </div>
-                                <img src="assets/Image 13.png" alt="">
-                            </div>
-                        </section>
-                        <section id="noticia-right">
-                            <div id="ads">
-                                <img src="assets/Ads.png" alt="">
-                            </div>
-                            <div class="header">
-                                <span>Viu isso aqui?</span>
-                                <div class="ver">
-                                    <span>Ver tudo</span>
-                                    <img src="assets/icones/Vector.svg" alt="">
-                                </div>
-                            </div>
-                            <div class="noticia-right">
-                                <img src="assets/Image 14.png" alt="">
-                                <div class="text-right">
-                                    <span>SOFTWARE</span>
-                                    <h3>Aplicativo de monitoramento ambiental ganha destaque, incentivando práticas ecológicas e pro...</h3>
-                                </div>
-                            </div>
-                            <div class="noticia-right">
-                                <img src="assets/Image 15.png" alt="">
-                                <div class="text-right">
-                                    <span>REALIDADE VIRTUAL</span>
-                                    <h3>Óculos de realidade virtual com feedback tátil proporcionam uma experiência sensorial complet...</h3>
-                                </div>
-                            </div>
-                            <div class="noticia-right">
-                                <img src="assets/Image 16.png" alt="">
-                                <div class="text-right">
-                                    <span>CRIPTOMOEDAS</span>
-                                    <h3>Surge uma nova moeda digital baseada em tecnologias sustentáveis, buscando minimizar o i...</h3>
-                                </div>
-                            </div>
-                            <div class="noticia-right">
-                                <img src="assets/Image 17.png" alt="">
-                                <div class="text-right">
-                                    <span>DRONES</span>
-                                    <h3>SEmpresas de e-commerce implementam frota de drones para entregas rápidas, transformando o ce...</h3>
-                                </div>
-                            </div>
-                            <div class="noticia-right">
-                                <img src="assets/Image 18.png" alt="">
-                                <div class="text-right">
-                                    <span>IMPRESSÃO 3D</span>
-                                    <h3>Tecnologia inovadora permite a impressão 3D de órgãos humanos, revolucionando a medicina e a li...</h3>
-                                </div>
-                            </div>
-                        </section>
-                    </section>
-                </section>
-            </main>
-        </div>
+            </section>
+        </main>
     </body>
 </html>
