@@ -119,11 +119,11 @@ header{
         padding-top: .75rem;
         border-top: 1px solid var(--stroke-color);
 
-        margin-bottom: 1.5rem;
-
     }
 
     & .news{
+        padding-block: 1.5rem;
+        margin-bottom: 2rem;
         & figure{
             position: relative;
 
@@ -143,6 +143,7 @@ header{
 @media (width >= 80em){
     #more-news{
         & .news{
+            margin-bottom: 5rem;
             grid-template-columns: repeat(4, 1fr);
         }
 
