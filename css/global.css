@@ -19,7 +19,7 @@
     --text-heading2: 800 16px/1.4 var(--font-family);
     --text-heading3: 800 14px/1.4 var(--font-family);
     --text-a: 600 14px/1.45 var(--font-family);
-    --text-paragraph: normal 14px/160% var(--font-family);
+    --text-paragraph: 400 14px/160% var(--font-family);
 
     --px-lg: 1rem;
 
