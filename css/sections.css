@@ -238,6 +238,8 @@ header{
        display: grid;
        grid-template-columns: 43.5rem 30.5rem;
 
+       justify-content: space-between;
+
        margin-bottom: 5rem;
 
         & .general-news{
