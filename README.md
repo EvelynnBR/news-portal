@@ -8,7 +8,7 @@
 <br>
 
 <p>
-  <img alt="Portal de notícias" src=".github/technews.jpg" width="100%">
+  <img alt="Portal de notícias" src="github/technews.jpg" width="100%">
 </p>
 
 ## 💻 Projeto
