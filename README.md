@@ -13,7 +13,7 @@
 
 ## 💻 Projeto
 
-Nesse projeto desenvolvir uma homepage de um portal de notícias.
+Nesse projeto desenvolvi uma homepage de um portal de notícias.
 - Veja o projeto: <a href="https://evelynnbr.github.io/technews/"> Tech News</a>
 
 ## 🚀 Tecnologias
